@@ -1,0 +1,12 @@
+{
+  "name": "warrior-growth-charm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bunny Loader 1.4.5.8 饰品模组：战士成长饰品拓展（WarriorGrowthCharm）",
+  "scripts": {
+    "verify": "node scripts/verify.mjs",
+    "summary": "node scripts/summary.mjs"
+  },
+  "license": "MIT"
+}
