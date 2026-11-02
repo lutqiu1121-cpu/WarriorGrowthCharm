@@ -1,20 +1,35 @@
 {
+  "uid": "25806531-6018-4195-ade2-cbd956cbff4e",
   "id": "warrior-growth-charm",
   "name": "战士成长饰品拓展",
-  "internalName": "WarriorGrowthCharm",
   "version": "1.0.0",
-  "author": "YOUR_GITHUB_NAME",
-  "description": "随 Boss 进度成长的战士饰品：减伤 / 防御 / 伤害 / 闪避 / 吸血。数值全部集中在 src/config.js。",
-  "entry": "src/main.js",
-  "gameVersion": "1.4.5.8",
-  "type": "accessory",
-  "resources": {
-    "texture": "res/WarriorGrowthCharm.png"
-  },
-  "_notes": [
-    "TODO：待确认 —— 上面这些字段名（entry / gameVersion / type / resources）是占位，不代表 Bunny Loader 1.4.5.8 的真实 manifest 规范。",
-    "TODO：待确认 —— manifest.json 的必填字段、版本号格式、id 是否允许连字符、是否需要 dependencies / minLoaderVersion。",
-    "TODO：待确认 —— res 目录是否需要在本文件里声明资源清单；若需要，请按官方格式补 resources 数组（见 res/README.md）。",
-    "本文件刻意只写最小信息：字段缺失比字段写错更容易排查，先按官方模板对齐再补。"
+  "authors": [
+    {
+      "name": "lutqiu1121-cpu",
+      "role": "作者",
+      "color": "#E8B86C",
+      "link": "https://github.com/lutqiu1121-cpu"
+    }
+  ],
+  "category": "Accessories",
+  "summary": "随 Boss 进度成长的战士饰品：减伤 / 防御 / 伤害 / 闪避 / 吸血；击败机械三王后可升级为觉醒版。",
+  "license": "MIT",
+  "updated": "2026-11-03",
+  "blVersion": 2,
+  "gameVersion": [
+    301720,
+    301720
+  ],
+  "entry": "main.js",
+  "dependencies": [],
+  "links": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lutqiu1121-cpu/WarriorGrowthCharm"
+    },
+    {
+      "title": "问题反馈",
+      "url": "https://github.com/lutqiu1121-cpu/WarriorGrowthCharm/issues"
+    }
   ]
 }

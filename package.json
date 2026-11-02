@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Bunny Loader 1.4.5.8 饰品模组：战士成长饰品拓展（WarriorGrowthCharm）",
+  "description": "Bunny Loader 饰品模组：战士成长饰品拓展（WarriorGrowthCharm），.bl 源码",
   "scripts": {
     "verify": "node scripts/verify.mjs",
-    "summary": "node scripts/summary.mjs"
+    "summary": "node scripts/summary.mjs",
+    "build": "python3 scripts/build_bl.py",
+    "textures": "python3 scripts/make_textures.py"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "manifest.json",
+    "icon.png",
+    "description.md",
+    "content/"
+  ]
 }
